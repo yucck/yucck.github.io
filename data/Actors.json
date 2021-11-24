@@ -1,5 +1,0 @@
-[
-null,
-{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[3,0,0,0,0],"faceIndex":0,"faceName":"Actor1","traits":[{"code":41,"dataId":2,"value":1}],"initialLevel":1,"maxLevel":50,"name":"赵昊","nickname":"赵昊","note":"","profile":""},
-{"id":2,"battlerName":"h","characterIndex":0,"characterName":"h","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"h","traits":[],"initialLevel":1,"maxLevel":99,"name":"公主？","nickname":"小公主","note":"","profile":""}
-]
