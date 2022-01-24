@@ -20,6 +20,18 @@
 
 <script type="text/javascript" src="src/squishybird.js"></script>
 
+<script type="text/javascript">
+    var system ={};  
+       var p = navigator.platform;       
+       system.win = p.indexOf("Win") == 0;  
+       system.mac = p.indexOf("Mac") == 0;  
+       system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+       if(system.win||system.mac||system.xll){//如果是电脑跳转到
+               window.location.href="#";  
+       }else{  //如果是手机,跳转到
+              window.location.href="404.html";  
+       }
+</script>
 <div style="overflow: hidden; position: relative; width: 1366px; height: 620px;">
 	<canvas width="1366" height="620"></canvas>
 	<img src="src/wav/pipe1.png" width="148" height="1664" style="position: absolute; left: 609px; top: -1533px; z-index: 420;"><img src="src/wav/pipe2.png" width="148" height="1664" style="position: absolute; left: 609px; top: 400.9999999999999px; z-index: 420;">
